@@ -17,7 +17,7 @@ dt::after {
 hr {
     margin: 3em 0 2em 0;
     border: none;
-    border-bottom: 3px dotted rgb(58, 0, 0);
+    border-bottom: 3px dotted rgb(41, 41, 41);
     width: 50vw;
     max-width: 890px;
     min-width: 300px;
@@ -25,16 +25,16 @@ hr {
 
 a:link {
     text-decoration: none;
-    color: rgb(255, 0, 30)
+    color: rgb(100, 0, 12)
 }
 
 a:visited {
-    color: rgb(120, 0, 30);
+    color: rgb(114, 74, 0);
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(255, 166, 0);
+    color: rgb(38, 0, 255);
 }
 
 body {
@@ -43,13 +43,13 @@ body {
 }
 
 ::selection {
-    background-color: rgb(255, 166, 0)
+    background-color: rgb(48, 48, 48)
 }
 
 h1 {
     color: rgb(255, 0, 0, 0);
-    background: rgb(0, 9, 255);
-    background: radial-gradient(circle, rgba(0, 9, 255, 0.5) 0%, rgba(255, 0, 0, 0.2) 100%);
+    background: rgb(107, 107, 107);
+   
     -webkit-background-clip: text;
 }
 
@@ -163,7 +163,7 @@ input:valid {
     border: solid rgba(0, 0, 0, 0.3);
     border-width: 0 1px 1px 1px;
     margin-bottom: 3em;
-    background-color: rgb(55, 10, 16);
+    background-color: rgb(34, 34, 34);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -208,7 +208,7 @@ img {
 div.bio img {
     padding: 2%;
     background-color: #ffffff;
-    box-shadow: 2px 2px rgb(150, 0, 0);
+    box-shadow: 2px 2px rgb(26, 26, 26);
 }
 
 footer {
