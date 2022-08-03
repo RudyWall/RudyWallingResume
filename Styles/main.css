@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    background-color: black;
 }
 
 *, *::before, *::after {
@@ -17,7 +18,7 @@ dt::after {
 hr {
     margin: 3em 0 2em 0;
     border: none;
-    border-bottom: 3px dotted rgb(41, 41, 41);
+    border-bottom: 3px dotted rgb(255, 255, 255);
     width: 50vw;
     max-width: 890px;
     min-width: 300px;
@@ -25,11 +26,11 @@ hr {
 
 a:link {
     text-decoration: none;
-    color: rgb(100, 0, 12)
+    color: rgb(156, 0, 18)
 }
 
 a:visited {
-    color: rgb(114, 74, 0);
+    color: rgb(168, 109, 0);
 }
 
 a:hover {
@@ -39,16 +40,16 @@ a:hover {
 
 body {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(119, 119, 119);
 }
 
 ::selection {
-    background-color: rgb(48, 48, 48)
+    background-color: rgb(34, 27, 27)
 }
 
 h1 {
     color: rgb(255, 0, 0, 0);
-    background: rgb(107, 107, 107);
+    background: rgb(255, 255, 255);
    
     -webkit-background-clip: text;
 }
@@ -67,7 +68,7 @@ header {
 }
 
 header nav {
-    border-bottom: 1px dotted rgb(255, 255, 255, 0.3);
+    border-bottom: 1px dotted rgb(255, 0, 0);
     margin: 0 2em 2em;
 }
 
@@ -167,7 +168,8 @@ input:valid {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Russo One', sans-serif;
+    
 }
 
 body {
